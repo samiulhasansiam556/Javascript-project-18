@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.form{
+    width: 100%;
+    margin: 10px auto;
+    text-align: center;
+}
+.form input {
+    padding: 8px 5px;
+    outline: none;
+    width: 300px;
+}
+.form button{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    border: 1px solid;
+
+}
+
+button.update{
+    background: #036c59;
+}
+
+/* table */
+.table{
+    width: 100%;
+    text-align: center;
+    width: 60%;
+    margin: 50px auto;
+}
+.table table{
+    width: 100%;
+
+}
+.table table tr{
+    margin: 10px 0;
+}
+
+
+.table table td{
+    border: 1px solid;
+    padding: 10px;
+    
+}
+
+.del_btn,.update_btn{
+  
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    border: 1px solid;
+}
+.del_btn{
+    background: rgb(179, 17, 17);
+}
+.update_btn{
+    background: #036c59;
+}
+button:hover{
+    background: transparent;
+    border: 1px solid;
+    color: #111;
+    transition: .5s ease-in-out;
+}
+
+/* notify */
+
+.notify{
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    color: #fff;
+    padding: 40px 0;
+    font-size: 28px;
+    background: #036c59;
+}
